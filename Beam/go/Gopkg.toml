@@ -62,3 +62,7 @@ required = [
 [[constraint]]
   branch = "master"
   name = "github.com/spf13/cobra"
+
+[prune]
+  go-tests = true
+  unused-packages = true
